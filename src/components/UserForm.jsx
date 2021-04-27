@@ -37,7 +37,7 @@ const UserForm = () => {
         case 2:
             return <UserPersonalForm values={values} handleChange={handleChange} next={next} previous={previous} />;
         case 3:
-            return <UserVerifyDetail />;
+            return <UserVerifyDetail values={values} next={next} previous={previous} />;
         case 4:
             return <Success />;
         default:
