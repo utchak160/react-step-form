@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const UserVerifyDetail = () => {
     return (
         <div>
-            
+            User Verify Detail
         </div>
-    )
-}
+    );
+};
 
-export default UserVerifyDetail
+export default UserVerifyDetail;
